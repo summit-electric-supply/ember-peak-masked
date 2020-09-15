@@ -1,0 +1,1 @@
+export { default } from '@summit-electric-supply/ember-peak-masked/components/peak-masked';
