@@ -1,6 +1,6 @@
 {
   "name": "@summit-electric-supply/ember-peak-masked",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, flexible and customizable input UI component for masking data.",
   "keywords": [
     "ember-addon"
