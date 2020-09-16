@@ -35,7 +35,10 @@ export default class PeakMaskedComponent extends Component {
     const { target } = event;
     const { value } = target;
 
-    this.inputMask.update(value);
+    this.inputMask.update(value, {
+      inputElement: this.inputElement,
+      mask: this.mask,
+    });
 
     if (this.args.onChange) {
       this.args.onChange(this.inputMask.state.previousConformedValue);
